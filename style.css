@@ -1,0 +1,138 @@
+/* This is the way */
+
+*{box-sizing: border-box;
+margin:20px;}
+
+body{
+    background-color:bisque;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align:center;
+}
+
+#navbar{
+border-style: groove;
+border-color:black;
+
+display: flex;
+background-color: rgb(165, 100, 15);
+/* background-image:url(2.png); */
+justify-content: space-around;  
+}
+
+#navbar a{  
+    font-size:5vh;
+    text-shadow:black 1px 2px;
+    color:white;
+    text-decoration: none;
+    font-family: Georgia, Times, serif, Helvetica, sans-serif;
+}
+
+#navbar a:hover{ 
+    color:rgb(255, 0, 0);
+}
+
+
+
+ #navbar1{ 
+    border-style: groove;
+    border-color:black;
+    display: flex;
+    font-size:12vh;
+    background-color: rgb(165, 100, 15);
+    background-image:url(Library3.jpg);
+    background-size:cover;
+    padding:200px;
+    /* background-image:url(library3.jpg); */
+    justify-content: space-around;  
+    text-shadow:black 1px 2px;
+    color:white;
+}
+
+#navbar1 a{  
+    display:flex;
+    font-size:8vh;
+    text-shadow:black 1px 2px;
+    color:white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar1 a:hover{ 
+    color:rgb(255, 0, 0);
+}
+
+p{
+    font-size:3vh;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    background-color:rgb(165, 100, 15);
+    background-size:cover;
+    padding-bottom: 4rem 0 4rem 0;
+
+}
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color:rgb(165, 100, 15);
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction:column;
+    margin-right: 2rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color:white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color:red;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color:red;
+    outline: none;
+    border: none;
+    color:white;
+    font-size: 1rem;
+}
